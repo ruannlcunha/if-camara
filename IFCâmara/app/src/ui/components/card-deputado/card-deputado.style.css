@@ -1,0 +1,41 @@
+
+.card-deputado {
+    border-radius: 10px;
+    background-color: var(--light-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 85%;
+    margin: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.card-deputado header {
+    height: 40%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px var(--black);
+}
+
+.card-deputado header .deputado-foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    background-image: url(../../../assets/img/user_icon.png);
+    background-size: cover;
+}
+
+.card-deputado h1 {
+    font-size: 32px;
+    margin: 10px;
+}
+
+.card-deputado p {
+    width: 80%;
+    height: 25%;
+    font-size: 20px;
+    margin: 0;
+}

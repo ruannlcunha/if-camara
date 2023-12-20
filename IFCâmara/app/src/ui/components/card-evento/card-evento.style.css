@@ -1,0 +1,45 @@
+
+.evento {
+    border: solid var(--green) 4px;
+    width: 90%;
+    background-color: var(--light-green);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.deputado-eventos .evento h1 {
+    font-size: 28px;
+    margin: 10px;
+    color: black;
+    text-shadow: none;
+}
+
+.evento section button {
+    margin: 0 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background: none;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.evento section .editar-evento {
+    background-image: url(../../../assets/img/editar_icon.png);
+}
+
+.evento section .remover-evento {
+    background-image: url(../../../assets/img/remover_icon.png);
+}
+
+.evento section .editar-evento:hover {
+    background-image: url(../../../assets/img/editar_icon_hover.png);
+}
+
+.evento section .remover-evento:hover {
+    background-image: url(../../../assets/img/remover_icon_hover.png);
+}
